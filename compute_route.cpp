@@ -33,7 +33,7 @@ class Route{
 Route::Route(){  
     // std::cout << "Please enter a file path: ";
     // std::cin >> FilePath;
-    FilePath = "/home/deep/Downloads/Perceptive Automata/route.json";
+    FilePath = "file path";
 
     std::ifstream file(FilePath.c_str());
     json j = json::parse(file);
